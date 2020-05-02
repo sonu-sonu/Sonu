@@ -3,14 +3,10 @@
 #include<stdlib.h>
 
 #include <string.h>
-char* months[] = 
-{
-"Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb"
+char* months[] = {"Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb"
 }
 ;
-char* days[]= 
-{
- "sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday" 
+char* days[]= {"sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday" 
 }
 ;
 main()
