@@ -3,8 +3,8 @@
 #include<stdlib.h>
 
 #include <string.h>
-char* months[] = {"Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb" };
-char* days[]= {"sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday" };
+char* months[] ={"Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan","Feb"};
+char* days[]={"sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
 main()
 {
 //Using Zellers Rule f = k + [(13*m-1)/5] + D + [D/4] + [C/4] - 2*C//Ex for 29 Jan 2064//k---day of the month as 29//m-month number as March=1 ..Feb=12,so here it is 11//D--last two digits of year from above it is 64//C--first two digits of year from above it is 20int k,m,D,C,year,i,f,finalday,flag=0;
